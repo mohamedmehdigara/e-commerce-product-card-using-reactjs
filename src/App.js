@@ -1,6 +1,6 @@
 import React from 'react';
-import "./App.css"
-import Card from "./components/Card";
+import './App.css';
+import Card from './components/Card';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <div className="row">
         <Card
           title="What is Lorem Ipsum?"
-          images="../images/batman.png"
+          images="./images/batman.png"
           old_price="9,999"
           newPrice="9999"
           dollar="$"
@@ -17,7 +17,7 @@ function App() {
         />
         <Card
           title="What is Lorem Ipsum?"
-          images="../images/blackpanter.png"
+          images="./images/blackpanter.png"
           old_price="599"
           newPrice="500"
           dollar="$"
@@ -26,7 +26,7 @@ function App() {
         />
         <Card
           title="What is Lorem Ipsum?"
-          images="../images/arthur.png"
+          images="./images/arthur.png"
           old_price="7999"
           newPrice="7000"
           dollar="$"
@@ -35,7 +35,7 @@ function App() {
         />
         <Card
           title="What is Lorem Ipsum?"
-          images="../images/kashima.png"
+          images="./images/kashima.png"
           old_price="999"
           newPrice="500"
           dollar="$"
@@ -46,4 +46,5 @@ function App() {
     </div>
   );
 }
+
 export default App;
